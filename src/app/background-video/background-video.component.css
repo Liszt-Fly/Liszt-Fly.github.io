@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  background-color: transparent;
+  flex-direction: column;
+  position: relative;
+}
+
+video {
+  position: fixed;
+  z-index: -999;
+  right: 0px;
+  bottom: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  filter: grayscale(5%);
+  width: auto;
+}
+
+.Main {
+  width: 800px;
+  height: 120px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+  background-color: transparent;
+  user-select: none;
+  cursor: pointer;
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-transform: uppercase;
+}
+
+.Main + div {
+  text-indent: 400px;
+  color: white;
+  font-size: 20px;
+  font-family: 'ZCOOL XiaoWei', serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  user-select: none;
+}
+
+div:nth-child(4) {
+  color: white;
+  bottom: 10px;
+  position: absolute;
+  font-size: 10px;
+}
+
+button {
+  margin-top: 100px;
+  width: 140px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 10px;
+  transition: .5s;
+  font-family: 'ZCOOL XiaoWei', serif;
+}
+
+button:hover {
+  font-size: 14px;
+  transition: .5s;
+}
